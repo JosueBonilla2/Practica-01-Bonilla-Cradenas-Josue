@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="660dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edt_direccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/edt_direccion"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txt_calle"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/txt_calle"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txt_cruce"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="@string/txt_cruce"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txt_num"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="230dp"
+                android:ems="10"
+                android:hint="@string/txt_num"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/edt_estado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="190dp"
+                android:text="Selccione su Estado"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/sp_estado"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/txt_municipio"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="@string/txt_municipio"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txt_colonia"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="@string/txt_colonia"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txt_cp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="230dp"
+                android:ems="10"
+                android:hint="@string/txt_postal"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txt_indicaciones"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="230dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/txt_indicaciones"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/btn_registrard"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="500dp"
+                android:text="@string/btn_registrard" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

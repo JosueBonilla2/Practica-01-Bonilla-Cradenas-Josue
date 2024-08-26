@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ComprasLinea</string>
+
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_registrar"> REGISTRAR</string>
+    <string name="btn_salir">SALIR</string>
+
+    <string name="edt_Compra">Bienvenido A La Vista De Compras</string>
+    <string name="edt_muneca">Muñeca Poseida</string>
+    <string name="edt_cuadro">Cuadro Maldito</string>
+    <string name="edt_craneo">Craneo Tlacuache</string>
+
+    <string name="comprar">COMPRAR</string>
+
+    <string name="edt_registro">Registra Tus Datos De Tarjeta</string>
+    <string name="txt_nombre">Nombre del Beneficiario</string>
+    <array name="lst_bancos">
+        <item>BBVA</item>
+        <item>Banamex</item>
+        <item>Santander</item>
+        <item>Banorte</item>
+        <item>HSBC</item>
+    </array>
+    <string name="txt_bin">BIN de la Tarjeta</string>
+    <string name="txt_fecha">Fecha de Expedicion</string>
+    <string name="txt_cvv">CVV</string>
+
+    <string name="btn_registrart">REGISTRAR TARJETA</string>
+
+    <string name="edt_gracias">¡Gracias por tu compra!</string>
+    <string name="edt_informacion">Tu pedido ha sido procesado con éxito y se encuentra en camino.
+        Te enviaremos una confirmación de envío junto con los detalles de tu pedido pronto.
+        Si tienes alguna pregunta, no dudes en contactarnos.
+    </string>
+    
+    <string name="edt_direccion">Registra tus datos de Direccion</string>
+    <string name="txt_calle">CALLE</string>
+    <string name="txt_cruce">CRUCE</string>
+    <string name="txt_num">Num.Exterior</string>
+    <array name="estados">
+        <item>Jalisco</item>
+        <item>CDMX</item>
+        <item>Nuevo Leon</item>
+        <item>Aguascalientes</item>
+        <item>Baja California Norte</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Ciudad de México</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Durango</item>
+        <item>Estado de México</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+    </array>
+    <string name="txt_municipio">MUNICIPIO</string>
+    <string name="txt_colonia">COLONIA</string>
+    <string name="txt_postal">CP</string>
+    <string name="txt_indicaciones">Indicaciones para la entrega (Opcional)</string>
+    <string name="btn_registrard">REGISTRAR DIRECCION</string>
+
+
+
+</resources>

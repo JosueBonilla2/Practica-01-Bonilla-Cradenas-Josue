@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/edt_compra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/edt_Compra"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="311dp"
+                android:layout_height="313dp"
+                android:layout_margin="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="229dp"
+                    app:srcCompat="@drawable/img1" />
+
+                <TextView
+                    android:id="@+id/edt_muneca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/edt_muneca"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_comprar"
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:text="@string/comprar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="311dp"
+                android:layout_height="313dp"
+                android:layout_margin="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="229dp"
+                    app:srcCompat="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/edt_cuadro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/edt_cuadro"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_comprar2"
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:text="@string/comprar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="311dp"
+                android:layout_height="313dp"
+                android:layout_margin="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="229dp"
+                    app:srcCompat="@drawable/img3" />
+
+                <TextView
+                    android:id="@+id/edt_craneo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/edt_craneo"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_comprar3"
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:text="@string/comprar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
